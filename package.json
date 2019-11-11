@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-amplifyunstable",
+  "version": "1.0.0",
+  "description": "My epic Nuxt.js project",
+  "author": "Dan Nelson",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "aws-amplify": "^1.2.5-unstable.9",
+    "aws-amplify-vue": "^0.3.4-unstable.19",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
